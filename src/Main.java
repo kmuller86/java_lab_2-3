@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,11 +10,36 @@ public class Main {
          *  i wyświetlał liczby które są podzielne przez ostatnią cyfrę waszego indeksu
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
+ /*       for (int i = 100; i >= 0; i--) {
+            if (i % 4 == 0) {
+                System.out.print(i  + "\n");
+            }
+        }*/
+        // System.out.println("\n");
+
+
+
+
 
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
          * za pomocą pętli forEach powiększone o 11 */
 
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("\n");
+        int[] tab = new int[5];
+
+        for (int j = 0; j < tab.length; j++) {
+            {
+                System.out.println("Podaj liczbę:");
+                int tmp = sc.nextInt();
+                tab[j] = tmp;
+            }
+        }
+
+        for (int x : tab) {
+            System.out.println(x + 11);
+        }
     }
 }
