@@ -10,11 +10,11 @@ public class Main {
          *  i wyświetlał liczby które są podzielne przez ostatnią cyfrę waszego indeksu
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
- /*       for (int i = 100; i >= 0; i--) {
-            if (i % 4 == 0) {
-                System.out.print(i  + "\n");
-            }
-        }*/
+        int indeks = 4;
+        for(int i = 100; i >= 0; i--){
+            if (i % indeks == 0 && i != 0)
+                System.out.println(i + " jest podzielna przez " + indeks);
+        }
         // System.out.println("\n");
 
 
