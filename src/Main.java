@@ -17,23 +17,21 @@ public class Main {
 
 
         //Pętla for z instrukcją break
-     /*       for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 1000; i++) {
                 System.out.println(i);
                 if (i >= 3) {
                     break;
                 }
                 System.out.println("Nadal dzialam.");
-            }*/
+            }
 
         //pętla for z instrukcją continue, pokaz liczby nieparzyste z zakresu 1-10
-/*
         for (int i = 1; i <= 10; i++) {
             if (i % 2 == 0) {
                 continue ;
             }
             System.out.println(i);
         }
-*/
 
 
         /* przykła użycia return */
