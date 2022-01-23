@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     // zad 1
     public static int[] zadanie1(int zmienna){
+        /* "var" co to za typ z .js, starajmy się dokładnie typować */
         var tab = new int[zmienna+1] ;
         var x = 0;
         for (int i =40; i>=zmienna; i -- ){
